@@ -1,0 +1,114 @@
+body{
+    height: 96vh;
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    outline: none;
+    user-select: none;    
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+}
+#main{
+    
+    border-radius: 15px;
+    height: 450px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 20px #f58999;
+    background-color: #ffcdd45c;
+}
+#display{
+    padding-top: 10px;
+    position: absolute;
+    margin: 30px;
+    padding-left: 5px;
+}
+
+#numbers{
+    border: 2px solid #ff768b;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: right;
+    box-shadow: 0 0 20px #f58999;
+    background-color: #f2adb787;
+    border-radius: 15px;
+    height: 60px;
+    
+}
+#buttons{
+    padding: 100px;
+    margin-lefT: 150px;
+}
+
+#calcybuttons{
+    display: grid;
+    grid-template-rows: 40px 40px 40px 40px;
+    grid-template-columns: 40px 40px 40px 40px;
+    gap: 20px;
+    padding: 120px;
+    width: 285px;
+    
+}
+
+#button{
+    margin: 2px;
+    border: 2px solid #ff768b;
+    display: flex;
+    justify-content: center;
+    background-color: #f2adb785;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 15px;
+    box-shadow: 0 0 20px #f58999;
+    transform: translate(-120%, -170%);
+}
+
+#equal1{
+    
+    border: 0px solid #ff768b;
+    display: flex;
+    justify-content: center;
+    background-color: #f2adb722;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 15px;
+    box-shadow: 0 0 20px #f58999;
+    
+}
+#clear1{
+    width: 100px;
+    margin: 2px;
+    border: 2px solid #ff768b;;
+    display: flex;
+    justify-content: center;
+    background-color: #f2adb785;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 15px;
+    box-shadow: 0 0 20px #f58999;
+    transform: translate(135%, -495%);
+    height: 30px;
+    width: 97px;
+}
+#clearbutton{
+    border: 0px solid #ff768b;;
+    display: flex;
+    justify-content: center;
+    background-color: #f2adb72b;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 15px;
+    box-shadow: 0 0 20px #f58999;
+}
